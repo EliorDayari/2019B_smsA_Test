@@ -8,7 +8,7 @@ public class Point implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	final double x,y,z;
+	final double x1,y1,z1;
 	
 	public Point() {
 		x=0;
@@ -17,9 +17,9 @@ public class Point implements Serializable{
 	}
 	
 	public Point(double x,double y,double z) {
-		this.x=x;
-		this.y=y;
-		this.z=z;
+		x1=x;
+		y1=y;
+		z1=z;
 	}
 	
 	@Override
